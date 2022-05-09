@@ -84,11 +84,6 @@ cd ~ || return
 rm -rf ${DOWNLOAD_PATH:?}/*
 echo "Install done"
 
-echo "--------------------------------"
-echo "Fly App Name: ${FLY_APP_NAME}"
-echo "Fly App Region: ${FLY_REGION}"
-echo "V2Ray UUID: ${UUID}"
-echo "--------------------------------"
 
 # Run v2ray
 /usr/bin/v2ray -config /etc/v2ray/config.json
